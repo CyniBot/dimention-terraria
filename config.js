@@ -2,20 +2,19 @@
 exports.ConfigSettings = {
     servers: [
         {
-            listenPort: 7777,
-            routingServers: [{
-                name: "test",
-                serverIP: "116.202.48.240",
-                serverPort: 7059,
-                hidden: false,
-            }]    
-        },
-        {
-            listenPort: 7778,
+            listenPort: 21448,
             routingServers: [{
                 name: "survival",
                 serverIP: "N1.MCST.IO",
                 serverPort: 36534,
+                hidden: false,
+            }]    
+        },
+        {
+            routingServers: [{
+                name: "test",
+                serverIP: "c2-tko3.altare.pro",
+                serverPort: 17420,
                 hidden: false,
             }]    
         },
